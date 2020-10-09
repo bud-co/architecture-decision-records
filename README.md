@@ -37,4 +37,4 @@ Contributions are what make our company such an amazing place to learn, inspire,
 
 ## 🔓 License
 
-_TODO_
+Distributed under the Apache 2.0 License. See [`LICENSE`](LICENSE) for more information.
