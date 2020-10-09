@@ -5,8 +5,6 @@
   * [Decision](#decision)
   * [Status](#status)
   * [Consequences](#consequences)
-  * [Experience report](#experience-report)
-  * [More reading](#more-reading)
 
 ## Context
 
