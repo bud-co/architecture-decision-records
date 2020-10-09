@@ -1,4 +1,4 @@
-# ADR 8: Feature Development Patterns
+# ADR 8: Development Workflow
 
 * [Table of contents](#)
   * [Context](#context)
@@ -9,7 +9,7 @@
 
 ## Context
 
-While developing a new feature, each developer has a style. Some developers push code to the `main` branch (never do that) while others create their feature branches.
+While developing a new feature or solving a bug, each developer has a style. Some developers push code to the `main` branch (never do that) while others create their feature branches.
 
 Although not mandatory, having a pattern makes it easier for developers to communicate and can make our process seems intuitive.
 
