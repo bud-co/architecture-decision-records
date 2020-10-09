@@ -1,12 +1,3 @@
----
-name: Default pull request
-about: Contribute to our project
-title: ''
-labels: ''
-assignees: ''
-
----
-
 ## ☕ Purpose
 
 A brief summary about the purpose of this PR.
