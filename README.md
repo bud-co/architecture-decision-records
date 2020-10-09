@@ -33,6 +33,7 @@ Contributions are what make our company such an amazing place to learn, inspire,
 
 * [Tech radar](https://www.thoughtworks.com/radar/techniques/lightweight-architecture-decision-records)
 * [How to document architecture decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
+* [When should I write an ADR?](https://engineering.atspotify.com/2020/04/14/when-should-i-write-an-architecture-decision-record/)
 
 ## 🔓 License
 

@@ -46,3 +46,4 @@ In past companies' experiences, we found that ADRs are the optimal way to centra
 
 * [Documenting architecture decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
 * [Tech radar](https://www.thoughtworks.com/radar/techniques/lightweight-architecture-decision-records)
+* [When should I write an ADR?](https://engineering.atspotify.com/2020/04/14/when-should-i-write-an-architecture-decision-record/)
