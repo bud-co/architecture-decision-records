@@ -17,11 +17,12 @@ We are going to use Layered Architecture to help us solve those problems. In a n
 1. **Presentation:** This layer is responsible for showing the user all the elements for interaction.
 2. **Application:** This layer is responsible for handling user interactions and processing them accordingly.
 3. **Domain:** This layer is accountable for your core business. It contains all business logic to control your entities and required resources.
-4. ** Infrastructure:** As the name suggests, this layer is responsible for handling your infrastructure: interacting with databases, handling memory, and so forth.
+4. **Infrastructure:** As the name suggests, this layer is responsible for handling your infrastructure: interacting with databases, handling memory, and so forth.
 
 This pattern is like a Russian doll. If you drill-down inside a microservice from the presentation layer, it can have their Presentation, Application, Domain, and Infrastructure likewise.
 
 A layer can also only talk with the layer below it (except for the Infrastructure layer). For example, the Presentation layer can only interact with the Application layer and the Infrastructure layer. And so forth.
+
 ![Diagram explaining the Layered Architecture hierarchy](assets/005-layered-architecture/hierarchy-diagram.png)
 
 ## Status
