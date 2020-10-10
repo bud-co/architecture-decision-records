@@ -50,6 +50,7 @@ Although most definitions for this layer resides inside the platform's repositor
 
 * **Relational Database:** PostegreSQL
 * **Timeseries Database:** Timescale
+* **Message Broker:** NATS w/ NATS Streaming
 
 As I've said before, this stack is flexible, but you should have a good reason to avoid it.
 
