@@ -8,7 +8,7 @@
 
 ## Context
 
-Since we're using an Event-Driven Architecture, we may face difficulties while defining microservices to develop. It is common to either break them too much or too little. Defining software boundaries is challenging, and we should pay extra attention since we're dealing with a complex domain.
+Since we're planning to use an Event-Driven Architecture, we may face difficulties while defining microservices to develop. It is common to either break them too much or too little. Defining software boundaries is challenging, and we should pay extra attention since we're dealing with a complex domain.
 
 ## Decision
 
@@ -23,7 +23,7 @@ This pattern is like a Russian doll. If you drill-down inside a microservice fro
 
 A layer can also only talk with the layer below it (except for the Infrastructure layer). For example, the Presentation layer can only interact with the Application layer and the Infrastructure layer. And so forth.
 
-![Diagram explaining the Layered Architecture hierarchy](assets/005-layered-architecture/hierarchy-diagram.png)
+![Diagram explaining the Layered Architecture hierarchy](assets/004-layered-architecture/hierarchy-diagram.png)
 
 ## Status
 
