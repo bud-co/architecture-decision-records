@@ -4,7 +4,7 @@
   <br>
 </p>
 <p align="center">
-Company-wide architecture decisions. Such as patterns, domain architectures, and others. 
+Company-wide architecture decisions. Such as patterns, domain models, and others. 
 </p>
 
 ## 📖 About this
@@ -23,7 +23,7 @@ You can find any ADR inside the `records` folder, grouped based on their context
 
 We're organizing our records with a prefix of three numbers to understand the sequencing between those decisions clearly. 
 
-For example, if you want to learn more about our **stack decision**, you should look at the following file: `records/patterns/007-stack.md`.
+For example, if you want to learn more about our **stack decision**, you should look at the following file: `records/patterns/011-stack.md`.
 
 ## 💻 Contributing
 

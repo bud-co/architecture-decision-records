@@ -1,6 +1,6 @@
-# Contributing to Architecture Decision Records
+# Contributing to Architecture Decision Log
 
-On this file, you'll find an overview of Architecture Decision Records (ADR). Please, read all the following content before submitting any decision for any service. It is important to have a common language, usage and pattern between all the ADRs to make it easier for new contributions.
+On this file, you'll learn how to write company-wide Architecture Decision Records (ADR). Please, read all the following content before submitting any decision for any service. It is important to have a common language, usage and pattern between all the ADRs to make it easier for new contributions.
 
 In short, an architectural decision record (ADR) is a document that captures an important architectural decision made along with its context and consequences.
 
@@ -41,7 +41,7 @@ Abbreviations:
 Before writting your own ADR decide where you're going to store it. You have two options:
 
 1. **If your ADR is related to the entire company,** you should keep it here.
-2. **If it is related to a given topic or domain,** you should place it inside `docs/adr` at your project's repository.
+2. **If it is related to a given topic or domain,** you should place it inside `docs/adl` at your project's repository.
 
 After that, you can use [our company's ADR template](TEMPLATE.md) to write your ADR. It is divided into the following sections:
 
