@@ -1,6 +1,6 @@
 # Contributing to Architecture Decision Log
 
-On this file, you'll learn how to write company-wide Architecture Decision Records (ADR). Please, read all the following content before submitting any decision for any service. It is important to have a common language, usage and pattern between all the ADRs to make it easier for new contributions.
+On this file, you'll learn how to write company-wide Architecture Decision Records (ADR). Please, read all the following content before submitting any decision for any service. It is important to have a common language, usage, and pattern between all the ADRs to make it easier for new contributions.
 
 In short, an architectural decision record (ADR) is a document that captures an important architectural decision made along with its context and consequences.
 
