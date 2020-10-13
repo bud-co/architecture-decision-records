@@ -1,6 +1,6 @@
 <p align="center">
   <br>
-   <img src="https://media.giphy.com/media/yUrUb9fYz6x7a/giphy.gif" alt="An old man trying to stop the printer from throwing paper" title="Architecture Decision Records header's GIF" />
+   <img src="https://media.giphy.com/media/yUrUb9fYz6x7a/giphy.gif" alt="An old man trying to stop the printer from throwing paper" title="Architecture Decision Log header's GIF" />
   <br>
 </p>
 <p align="center">
