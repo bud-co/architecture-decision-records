@@ -5,6 +5,7 @@
   * [Decision](#decision)
   * [Status](#status)
   * [Consequences](#consequences)
+  * [Updates](#updates)
 
 ## Context
 
@@ -21,6 +22,7 @@ Below, I've listed the current stack of our company. We've grouped those into la
 This layer is responsible for presenting interfaces for our customers' interaction. We currently don't have any machine interface, since most of our applications are web or mobile apps.
 
 Based on that, here is the stack definition for our presentation layer:
+
 * **Programming language:** Javascript
 * **Runtime:** NodeJS
 * **Superset:** Typescript
@@ -29,28 +31,20 @@ Based on that, here is the stack definition for our presentation layer:
 * **State management:** Recoil
 * **Design System:** Custom, based in Material-UI
 
-### Application Layer
+### Business Layer (Application + Domain)
 
-This layer is responsible for our API. It controls and orchestrates executions between our presentation layer, external services, and our domain layer. It must be a scalable, lightweight structure since our presentation layer would rely on it for processing.
+This layer merges our Application and Domain layers. It is responsible for our API and domain execution. It controls and orchestrates our presentation layer and external services. It must be a scalable, lightweight structure since our presentation layer would rely on it for processing.
 
 Based on that, here is what we've chosen as our stack:
+
 * **Language:** Rust
 * **Framework:** Rocket
-
-### Domain Layer
-
-This layer answers for every domain execution. It handles complex logic and therefore requires a powerful and fast programming language. Most of our applications here are workers, receiving events. 
-
-Based on those, here are our stack:
-* **Language:** Rust
 
 ### Infrastructure Layer
 
 Although most definitions for this layer resides inside the platform's repositories, some are meaningful enough to mention in this ADR:
 
 * **Relational Database:** PostegreSQL
-* **Timeseries Database:** Timescale
-* **Message Broker:** NATS w/ NATS Jetstream
 
 As I've said before, this stack is flexible, but you should have a good reason to avoid it.
 
@@ -63,3 +57,9 @@ Accepted.
 Defining a solid stack will make hiring and training investments higher. But, with a well-defined stack, the quality of our architecture and code tends to improve, since we can share more knowledge between contexts.
 
 Also, none of the defined patterns are permanent. Anyone can submit a proposal in this ADR and suggest changes to it.
+
+## Updates
+
+### Update 1
+
+After [business/ADR#001](../business/001-reducing-initial-complexity.md), we've decided to change our stack to a more MVP-like structure.
