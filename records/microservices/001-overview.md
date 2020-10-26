@@ -6,6 +6,7 @@
   * [Status](#status)
   * [Consequences](#consequences)
   * [More reading](#more-reading)
+  * [Updates](#updates)
 
 ## Context
 
@@ -31,3 +32,9 @@ Since we're documenting our microservices infrastructure, we must keep this docu
 ## More reading
 
 * [Live architecture](https://app.mural.co/t/d4c6342/m/d4c6342/1602612797113/5836de51b220fa5ebc8cefd7ad0f161125610524)
+
+## Updates
+
+### Update 1
+
+After [business/ADR#001](../business/001-reducing-initial-complexity.md), we've decided to merge our application and domain app into a single business application and also remove our design-system application from our initial structure. Take a look at that ADR for more context.

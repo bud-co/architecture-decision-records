@@ -25,13 +25,13 @@ Taking a look at our decisions and considering what we've developed so far (main
 
 Based on those offenders, here is a list of actions that we're going to take to reduce our technical complexity:
 
-1. We're going to reject [patterns/ADR#005](https://github.com/budproj/architecture-decision-log/blob/main/records/patterns/005-cqrs%2Bes.md). Our first version will **not** be event-sourced, but we can add it in future releases.
-2. We're going to submit an update in [microservices/ADR#001](https://github.com/budproj/architecture-decision-log/blob/main/records/microservices/001-overview.md) to merge our application and domain applications layers into a **business** application that crosses both layers. That is not optimal and will create legacy code in the future, but will increase our development speed considerably.
-3. We're going to remove our design-system application in [microservices/ADR#001](https://github.com/budproj/architecture-decision-log/blob/main/records/microservices/001-overview.md) and archive the [design-system repository](https://github.com/budproj/design-system) until further notice. Our first release will have only a single presentation application, so there is no sense in having a robust and complex design-system.
+1. We're going to reject [patterns/ADR#005](../patterns/005-cqrs%2Bes.md). Our first version will **not** be event-sourced, but we can add it in future releases.
+2. We're going to submit an update in [microservices/ADR#001](../microservices/001-overview.md) to merge our application and domain applications layers into a **business** application that crosses both layers. That is not optimal and will create legacy code in the future, but will increase our development speed considerably.
+3. We're going to remove our design-system application in [microservices/ADR#001](../microservices/001-overview.md) and archive the [design-system repository](https://github.com/budproj/design-system) until further notice. Our first release will have only a single presentation application, so there is no sense in having a robust and complex design-system.
 4. We're going to deprecate [the entire design-system ADL](https://github.com/delucca/design-system/tree/feature/design-system-structure/docs/adl). Since we're not using a design-system anymore, there is no sense in maintaining them.
 5. We're going to move from ThemeUI to MaterialUI since our team already has good knowledge of it, which can boost our development speed.
-6. We're going to reject both [patterns/ADR#006](https://github.com/budproj/architecture-decision-log/blob/main/records/patterns/006-test-driven-development.md) and [patterns/ADR#007](https://github.com/budproj/architecture-decision-log/blob/main/records/patterns/007-behavior-driven-development.md). TDD and BDD are great, and we're going to use them shortly, but they would add little benefit to our first version.
-7. We're going to submit a change request to [patterns/ADR#11](https://github.com/budproj/architecture-decision-log/blob/main/records/patterns/011-stack.md), moving from an optimal stack to a more MVP-like stack.
+6. We're going to reject both [patterns/ADR#006](../patterns/006-test-driven-development.md) and [patterns/ADR#007](../patterns/007-behavior-driven-development.md). TDD and BDD are great, and we're going to use them shortly, but they would add little benefit to our first version.
+7. We're going to submit a change request to [patterns/ADR#11](../patterns/011-stack.md), moving from an optimal stack to a more MVP-like stack.
 
 ## Status
 
