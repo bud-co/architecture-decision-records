@@ -6,6 +6,7 @@
   * [Status](#status)
   * [Consequences](#consequences)
   * [More reading](#more-reading)
+  * [Updates](#updates)
 
 ## Context
 
@@ -29,7 +30,7 @@ BDD is a powerful tool that enhances our TDD cycle.
 
 ## Status
 
-Accepted.
+**REJECTED** _check [update 1](#update-1)_
 
 ## Consequences
 
@@ -42,3 +43,9 @@ Yet, we must train our developers to use BDD, and also, the product team must ke
 ## More reading
 
 * [Behavior-Driven Development @Cucumber](https://cucumber.io/docs/bdd/)
+
+## Updates
+
+### Update 1
+
+After [business/ADR#001](../business/001-reducing-initial-complexity.md), we've decided that TDD is way too complicated for our initial release. We plan to add it shortly, but not in our MVP.

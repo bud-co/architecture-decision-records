@@ -6,6 +6,7 @@
   * [Status](#status)
   * [Consequences](#consequences)
   * [More reading](#more-reading)
+  * [Updates](#updates)
 
 ## Context
 
@@ -34,7 +35,7 @@ In this decision, we've decided to use at least some form of testing in all appl
 
 ## Status
 
-Accepted.
+**REJECTED** _check [update 1](#update-1)_
 
 ## Consequences
 
@@ -45,3 +46,9 @@ Test-Driven Development decreases the development speed when a developer is lear
 ## More reading
 
 * [Simple TDD cycle](https://www.devmedia.com.br/test-driven-development-tdd-simples-e-pratico/18533)
+
+## Updates
+
+### Update 1
+
+After [business/ADR#001](../business/001-reducing-initial-complexity.md), we've decided that TDD is way too complicated for our initial release. We plan to add it shortly, but not in our MVP.

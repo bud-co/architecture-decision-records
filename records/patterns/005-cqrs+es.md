@@ -1,4 +1,4 @@
-# ADR 4: CQRS+ES
+# ADR 5: CQRS+ES
 
 * [Table of contents](#)
   * [Context](#context)
@@ -6,6 +6,7 @@
   * [Status](#status)
   * [Consequences](#consequences)
   * [More reading](#more-reading)
+  * [Updates](#updates)
 
 ## Context
 
@@ -36,7 +37,7 @@ The last concept we must cover is the sync between our command and query stacks.
 
 ## Status
 
-Accepted.
+**REJECTED** _check [update 1](#update-1)_
 
 ## Consequences
 
@@ -51,3 +52,9 @@ Also, we must watch out for external sources of mutation. Those could break the 
 ## More reading
 
 * [Martin Fowler's blog post](https://martinfowler.com/articles/201701-event-driven.html)
+
+## Updates
+
+### Update 1
+
+After [business/ADR#001](../business/001-reducing-initial-complexity.md), we've decided that CQRS+ES is way too complicated for our initial release. We plan to add it shortly, but not in our MVP.
