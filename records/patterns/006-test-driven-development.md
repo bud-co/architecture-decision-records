@@ -47,6 +47,8 @@ Test-Driven Development decreases the development speed when a developer is lear
 
 * [Simple TDD cycle](https://www.devmedia.com.br/test-driven-development-tdd-simples-e-pratico/18533)
 
+## Updates
+
 ### Update 1
 
 After [business/ADR#001](../business/001-reducing-initial-complexity.md), we've decided that TDD is way too complicated for our initial release. We plan to add it shortly, but not in our MVP.
