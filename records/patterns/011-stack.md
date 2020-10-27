@@ -33,12 +33,14 @@ Based on that, here is the stack definition for our presentation layer:
 
 ### Business Layer (Application + Domain)
 
-This layer merges our Application and Domain layers. It is responsible for our API and domain execution. It controls and orchestrates our presentation layer and external services. It must be a scalable, lightweight structure since our presentation layer would rely on it for processing.
+This layer merges our Application and Domain layers. It is responsible for our API and domain execution. It controls and orchestrates our presentation layer and external services. It must be a easy to use, scalable, lightweight structure since our presentation layer would rely on it for processing.
 
 Based on that, here is what we've chosen as our stack:
 
-* **Language:** Rust
-* **Framework:** Rocket
+* **Language:** Javascript
+* **Runtime:** NodeJS
+* **Superset:** Typescript
+* **Framework:** Koa
 
 ### Infrastructure Layer
 
