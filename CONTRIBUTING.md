@@ -12,6 +12,7 @@ On this document you will find the following topics:
 * [ADR file name conventions](#adr-file-name-conventions)
 * [ADR and ADG folder organization](#adr-and-adg-folder-organization)
 * [Default ADGs](#default-adgs)
+* [How to store images and other assets](#how-to-store-images-and-other-assets)
 * [Suggestions for writing good ADRs](#suggestions-for-writing-good-adrs)
 * [For more information](#for-more-information)
 
@@ -87,6 +88,10 @@ Although ADGs can be created ad-hoc and at any time, there are three default ADG
 - [Accepted](./adg/accepted): All accepted an valid ADRs
 - [Rejected](./adg/rejected): All rejected ADRs
 - [Deprecated](./adg/deprecated): Any ADR that was accepted, but are not valid anymore
+
+## How to store images and other assets
+
+While writting an ADR it is common needing to store an image, or even a file. To make it easier, we've created the [assets](assets) folder. There, you can create a new folder with your ADR file name (don't forget the auto-incrementing prefix) and store anything you want there.
 
 ## Suggestions for writing good ADRs
 
