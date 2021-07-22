@@ -10,6 +10,8 @@ On this document you will find the following topics:
 * [How to start using ADRs](#how-to-start-using-adrs)
 * [How to write my own ADR](#how-to-write-my-own-adr)
 * [ADR file name conventions](#adr-file-name-conventions)
+* [ADR and ADG folder organization](#adr-and-adg-folder-organization)
+* [Default ADGs](#default-adgs)
 * [Suggestions for writing good ADRs](#suggestions-for-writing-good-adrs)
 * [For more information](#for-more-information)
 
@@ -71,6 +73,20 @@ Our file name convention:
   * The name has a present tense imperative verb phrase. This helps readability and matches our commit message format.
   * The name uses lowercase and hyphens (same as this repo). This is a balance of readability and system usability.
   * The extension is markdown. This can be useful for easy formatting.
+
+## ADR and ADG folder organization
+
+After creating a new ADR, you **must** keep it inside the [adr](./adr) folder. That folder is a imutable record of **all our ADRs**. If you wish, you can add that ADR to an Architecture Decision Group (ADG). To do so, you can simply create a symbolic link from your original file to the group inside the [adg](./adg) folder.
+
+That organization makes our structure more flexible and easier to change.
+
+## Default ADGs
+
+Although ADGs can be created ad-hoc and at any time, there are three default ADGs that will always exist, they are:
+
+- [Accepted](./adg/accepted): All accepted an valid ADRs
+- [Rejected](./adg/rejected): All rejected ADRs
+- [Deprecated](./adg/deprecated): Any ADR that was accepted, but are not valid anymore
 
 ## Suggestions for writing good ADRs
 

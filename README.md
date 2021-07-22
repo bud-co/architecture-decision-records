@@ -19,11 +19,16 @@ Company-wide architecture decisions. Such as patterns, domain models, and others
 
 ## 🤖 Getting started
 
-You can find any ADR inside the `records` folder, grouped based on their context. Every file is a **markdown** file, versioned adequately so that you could understand the discussions and rationale of every decision.
+To understand our architecture decision logs repository you must first understand two separate concepts:
 
-We're organizing our records with a prefix of three numbers to understand the sequencing between those decisions clearly. 
+1. `Architecture Decision Record`: The record of an architecture decision. To understand what is an ADR, check our [`CONTRIBUTING.md`](./CONTRIBUTING.md) file;
+2. `Architecture Decision Group`: A group of architecture decision records. Those are arbitrary, ad-hoc groups (like folders) of more than one ADR. Inside each ADG you will only find symbolic links to any ADR related to it. Some example of ADGs are:
+- Accepted
+- Rejected
+- Deprecated
+- Domain-related
 
-For example, if you want to learn more about our **stack decision**, you should look at the following file: `records/patterns/011-stack.md`.
+So, if you want to check **all our architecture decisions**, you could check the `adr` folder. If you wish to navigate in how we're organizing our ADRs you can go to the `adg` folder of this repository. While in the `adg` folder, keep in mind that it only contains symbolic links, so the folder structure might change anytime.
 
 ## 💻 Contributing
 
