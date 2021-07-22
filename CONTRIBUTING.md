@@ -76,7 +76,7 @@ Our file name convention:
 
 ## ADR and ADG folder organization
 
-After creating a new ADR, you **must** keep it inside the [adr](./adr) folder. That folder is a imutable record of **all our ADRs**. If you wish, you can add that ADR to an Architecture Decision Group (ADG). To do so, you can simply create a symbolic link from your original file to the group inside the [adg](./adg) folder.
+After creating a new ADR, you **must** keep it inside the [adl](./adl) folder. That folder is a imutable record of **all our ADRs**. If you wish, you can add that ADR to an Architecture Decision Group (ADG). To do so, you can simply create a symbolic link from your original file to the group inside the [adg](./adg) folder.
 
 That organization makes our structure more flexible and easier to change.
 

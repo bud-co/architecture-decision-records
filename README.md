@@ -19,16 +19,19 @@ Company-wide architecture decisions. Such as patterns, domain models, and others
 
 ## 🤖 Getting started
 
-To understand our architecture decision logs repository you must first understand two separate concepts:
+To understand our architecture decision logs repository you must first understand three separate concepts:
 
 1. `Architecture Decision Record`: The record of an architecture decision. To understand what is an ADR, check our [`CONTRIBUTING.md`](./CONTRIBUTING.md) file;
+2. `Architecture Decision Log`: A list of created ADRs, organized by their creation time;
 2. `Architecture Decision Group`: A group of architecture decision records. Those are arbitrary, ad-hoc groups (like folders) of more than one ADR. Inside each ADG you will only find symbolic links to any ADR related to it. Some example of ADGs are:
 - Accepted
 - Rejected
 - Deprecated
 - Domain-related
 
-So, if you want to check **all our architecture decisions**, you could check the `adr` folder. If you wish to navigate in how we're organizing our ADRs you can go to the `adg` folder of this repository. While in the `adg` folder, keep in mind that it only contains symbolic links, so the folder structure might change anytime.
+So, if you want to check **all our architecture decisions**, you could check the [adl](./adl) folder of this repository.
+
+If you wish to navigate in how we're organizing our ADRs you can go to the [adg](./adg) folder of this repository. While there, keep in mind that it only contains symbolic links, so the folder structure might change anytime.
 
 ## 💻 Contributing
 
