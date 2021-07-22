@@ -1,0 +1,1 @@
+../../adl/0003-domain-driven-design.md
