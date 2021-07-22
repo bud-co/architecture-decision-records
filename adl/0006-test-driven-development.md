@@ -1,4 +1,4 @@
-# ADR 6: Test-Driven Development
+# ADR 0006: Test-Driven Development
 
 * [Table of contents](#)
   * [Context](#context)

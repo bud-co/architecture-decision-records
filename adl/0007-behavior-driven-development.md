@@ -1,4 +1,4 @@
-# ADR 7: Behavior-Driven Development
+# ADR 0007: Behavior-Driven Development
 
 * [Table of contents](#)
   * [Context](#context)

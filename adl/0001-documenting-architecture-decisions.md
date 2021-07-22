@@ -1,4 +1,4 @@
-# ADR 1: Documenting Architecture Decisions
+# ADR 0001: Documenting Architecture Decisions
 
 * [Table of contents](#)
   * [Context](#context)

@@ -1,4 +1,4 @@
-# ADR 8: Development Workflow
+# ADR 0008: Development Workflow
 
 * [Table of contents](#)
   * [Context](#context)

@@ -1,4 +1,4 @@
-# ADR 2: Github Template for Issue and Pull Requests
+# ADR 0002: Github Template for Issue and Pull Requests
 
 * [Table of contents](#)
   * [Context](#context)

@@ -1,4 +1,4 @@
-# ADR 3: Domain-Driven Design
+# ADR 0003: Domain-Driven Design
 
 * [Table of contents](#)
   * [Context](#context)

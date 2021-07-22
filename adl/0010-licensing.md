@@ -1,4 +1,4 @@
-# ADR 10: Licensing
+# ADR 0010: Licensing
 
 * [Table of contents](#)
   * [Context](#context)

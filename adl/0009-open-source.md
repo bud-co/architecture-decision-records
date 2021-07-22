@@ -1,4 +1,4 @@
-# ADR 9: Open Source
+# ADR 0009: Open Source
 
 * [Table of contents](#)
   * [Context](#context)

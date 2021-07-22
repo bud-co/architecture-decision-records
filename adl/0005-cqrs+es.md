@@ -1,4 +1,4 @@
-# ADR 5: CQRS+ES
+# ADR 0005: CQRS+ES
 
 * [Table of contents](#)
   * [Context](#context)

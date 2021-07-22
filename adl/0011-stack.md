@@ -1,4 +1,4 @@
-# ADR 11: Stack
+# ADR 0011: Stack
 
 * [Table of contents](#)
   * [Context](#context)

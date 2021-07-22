@@ -1,4 +1,4 @@
-# ADR 12: Linting
+# ADR 0012: Linting
 
 * [Table of contents](#)
   * [Context](#context)

@@ -1,4 +1,4 @@
-# ADR 5: Layered Architecture
+# ADR 0004: Layered Architecture
 
 * [Table of contents](#)
   * [Context](#context)
@@ -27,8 +27,15 @@ A layer can also only talk with the layer below it (except for the Infrastructur
 
 ## Status
 
-Accepted.
+**DEPRECATED** _check [update 1](#update-1)_
 
 ## Consequences
 
 By adopting this decision, we're going to improve our software's stability, but increase the complexity of architectural solutions and increase the ramp-up time of new engineers. But this pattern makes it easier to develop high-cohesive and low-coupled software.
+
+## Updates
+
+### Update 1
+Date: 2021-07-22
+
+This ADR is not valid anymore, since our only back-end is updated following the Hexagonal DDD pattern (which still lacks an ADR)
