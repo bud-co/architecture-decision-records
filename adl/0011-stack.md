@@ -64,4 +64,4 @@ Also, none of the defined patterns are permanent. Anyone can submit a proposal i
 
 ### Update 1
 
-After [business/ADR#001](../business/001-reducing-initial-complexity.md), we've decided to change our stack to a more MVP-like structure.
+After [ADR#0014](0014-reducing-initial-complexity.md), we've decided to change our stack to a more MVP-like structure.

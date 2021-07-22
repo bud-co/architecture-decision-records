@@ -17,7 +17,7 @@ Dealing with microservices is a complicated task. We always have the risk of los
 Within this ADR, we're going to keep an overview of our current microservices architecture. Each application has a pre-defined boundary, as well as a well-defined technical definition.
 
 You can take a look at our [live architecture](https://app.mural.co/t/d4c6342/m/d4c6342/1602612797113/5836de51b220fa5ebc8cefd7ad0f161125610524) or check the diagram below:
-![Diagram showing our microservices architecture](assets/001-overview/diagram.png)
+![Diagram showing our microservices architecture](../assets/0013-microservices-overview/diagram.png)
 
 ## Status
 
@@ -37,4 +37,4 @@ Since we're documenting our microservices infrastructure, we must keep this docu
 
 ### Update 1
 
-After [business/ADR#001](../business/001-reducing-initial-complexity.md), we've decided to merge our application and domain app into a single business application and also remove our design-system application from our initial structure. Take a look at that ADR for more context.
+After [ADR#0014](0014-reducing-initial-complexity.md), we've decided to merge our application and domain app into a single business application and also remove our design-system application from our initial structure. Take a look at that ADR for more context.

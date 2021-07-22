@@ -23,7 +23,7 @@ This pattern is like a Russian doll. If you drill-down inside a microservice fro
 
 A layer can also only talk with the layer below it (except for the Infrastructure layer). For example, the Presentation layer can only interact with the Application layer and the Infrastructure layer. And so forth.
 
-![Diagram explaining the Layered Architecture hierarchy](assets/004-layered-architecture/hierarchy-diagram.png)
+![Diagram explaining the Layered Architecture hierarchy](../assets/0004-layered-architecture/hierarchy-diagram.png)
 
 ## Status
 

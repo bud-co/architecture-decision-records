@@ -48,4 +48,4 @@ Yet, we must train our developers to use BDD, and also, the product team must ke
 
 ### Update 1
 
-After [business/ADR#001](../business/001-reducing-initial-complexity.md), we've decided that TDD is way too complicated for our initial release. We plan to add it shortly, but not in our MVP.
+After [ADR#0014](0014-reducing-initial-complexity.md), we've decided that TDD is way too complicated for our initial release. We plan to add it shortly, but not in our MVP.

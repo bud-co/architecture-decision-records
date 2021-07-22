@@ -27,7 +27,7 @@ CQRS segregates (as the name suggests) the **command** and **query** stacks. Bef
 * **Event:** is the result of a command. Always in the past, like: `SalaryRaised`. Our domain dispatches events based on resulting side-effects.
 
 In a nutshell, the CQRS architecture focuses our domain layer in handling commands (received from a message broker queue). In contrast, our application layer can return our entities' last know state by accessing the database directly. Like the following diagram:
-![Diagram explaining the CQRS Layered Architecture hierarchy](assets/005-cqrs+es/cqrs-layered-architecture.png)
+![Diagram explaining the CQRS Layered Architecture hierarchy](../assets/0005-cqrs+es/cqrs-layered-architecture.png)
 
 Our domain layer will not have any updated copy of our entities. Executing all actions again could cost a lot in compute time, so we're going to create some snapshots to consolidate our entities' state in time. This strategy is a pretty common CQRS standard, and most databases support it.
 
@@ -57,4 +57,4 @@ Also, we must watch out for external sources of mutation. Those could break the 
 
 ### Update 1
 
-After [business/ADR#001](../business/001-reducing-initial-complexity.md), we've decided that CQRS+ES is way too complicated for our initial release. We plan to add it shortly, but not in our MVP.
+After [ADR#0014](0014-reducing-initial-complexity.md), we've decided that CQRS+ES is way too complicated for our initial release. We plan to add it shortly, but not in our MVP.

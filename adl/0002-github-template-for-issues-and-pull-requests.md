@@ -14,7 +14,7 @@ Github is our git repository, and it holds our entire codebase. To improve the t
 
 An easy way to improve our communication is by creating templates for both `issues` and `pull requests`. Those templates must be simple, easy to use, and express all required sections for our developers and users.
 
-You can check the suggested templates [in the following folder](assets/002-github-template-for-issues-and-pull-requests).
+You can check the suggested templates [in the following folder](../assets/0002-github-template-for-issues-and-pull-requests).
 
 ## Status
 

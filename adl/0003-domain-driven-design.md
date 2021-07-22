@@ -21,7 +21,7 @@ With DDD, we can ensure proper refactors in the future, having a clear overview 
 
 We can't have a clear, detailed overview of our entire domain structure (that would be overwhelming), but we've organized our DDD in a way that we can have a high-level concept of the whole company and drill-down to see a more detailed view of each bounded context.
 
-**The high-level concept of our Domain-Driven Design** is located in this repository, at [`records/domains/001-high-level-overview.md`](../domains/001-high-level-overview.md). You can take a look at that record to learn more about our architecture overview.
+**The high-level concept of our Domain-Driven Design** is located in this repository, at [ADR#0015](0015-model-overview.md). You can take a look at that record to learn more about our architecture overview.
 
 **Bounded context detailed domains** are located in the same folder (`records/domains`), but there is a single file for each bounded context. Those architectures focus only on the given bounded context and any entity that relates to it.
 

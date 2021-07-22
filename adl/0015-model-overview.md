@@ -12,14 +12,14 @@ Understanding any software emergency attributes is complicated. Any application 
 
 ## Decision
 
-To reduce that gap, we've decided to use the Domain-Driven Design technique (as you can see [here](../patterns/003-domain-driven-design.md)).
+To reduce that gap, we've decided to use the Domain-Driven Design technique (as you can see in [ADR#0003](0003-domain-driven-design.md)).
 
 We've divided our domain architecture into two scopes:
 
 1. **Model Overview:** As you can see here, an overview of our architecture, considering only the most relevant entities.
 2. **Local Domain Overview:** Every other file in this `domain` folder. They're only considering their domain, with a more detailed view and exploring their inner objects and considering only external entities that affect them.
 
-![Snapshot of last know state of our domain model 2021-05-04](assets/001-model-overview/2021-05-04-diagram.jpg)
+![Snapshot of last know state of our domain model 2021-05-04](../assets/0015-model-overview/2021-05-04-diagram.jpg)
 
 ## Status
 
