@@ -1,0 +1,1 @@
+../../adl/0010-licensing.md

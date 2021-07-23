@@ -1,0 +1,1 @@
+../../adl/0002-github-template-for-issues-and-pull-requests.md
