@@ -1,37 +1,72 @@
-# ADR x: <Name>
+# [short title of solved problem and solution]
 
-* [Table of contents](#)
-  * [Context](#context)
-  * [Decision](#decision)
-  * [Status](#status)
-  * [Consequences](#consequences)
-  * [Experience report](#experience-report)
-  * [More reading](#more-reading)
+* Status: [proposed | rejected | accepted | deprecated | … | superseded by [ADR-0005](0005-example.md)] <!-- optional -->
+* Deciders: [list everyone involved in the decision] <!-- optional -->
+* Date: [YYYY-MM-DD when the decision was last updated] <!-- optional -->
 
-## Context
+Technical Story: [description | ticket/issue URL] <!-- optional -->
 
-<This section describes the forces at play, including technological, political, social, and project local. These forces are probably in tension, and should be called out as such. The language in this section is value-neutral. It is simply describing facts.>
+## Context and Problem Statement
 
-## Decision
+[Describe the context and problem statement, e.g., in free form using two to three sentences. You may want to articulate the problem in the form of a question.]
 
-<This section describes our response to these forces. It is stated in full sentences, with active voice. "We will …">
+## Decision Drivers <!-- optional -->
 
-## Status
+* [driver 1, e.g., a force, facing concern, …]
+* [driver 2, e.g., a force, facing concern, …]
+* … <!-- numbers of drivers can vary -->
 
-<A decision may be "proposed" if the project stakeholders haven't agreed with it yet, or "accepted" once it is agreed. If a later ADR changes or reverses a decision, it may be marked as "deprecated" or "superseded" with a reference to its replacement.>
+## Considered Options
 
-## Consequences
+* [option 1]
+* [option 2]
+* [option 3]
+* … <!-- numbers of options can vary -->
 
-<This section describes the resulting context, after applying the decision. All consequences should be listed here, not just the "positive" ones. A particular decision may have positive, negative, and neutral consequences, but all of them affect the team and project in the future.>
+## Pros and Cons of the Options <!-- optional -->
 
----
+### [option 1]
 
-## Experience report
+[example | description | pointer to more information | …] <!-- optional -->
 
-<OPTIONAL>
-<This section allow you to record experiences that you had while implementing/using the given architecture.>
+* Good, because [argument a]
+* Good, because [argument b]
+* Bad, because [argument c]
+* … <!-- numbers of pros and cons can vary -->
 
-## More reading
+### [option 2]
 
-<OPTIONAL>
-<Any attachment/relevant content for your ADR.>
+[example | description | pointer to more information | …] <!-- optional -->
+
+* Good, because [argument a]
+* Good, because [argument b]
+* Bad, because [argument c]
+* … <!-- numbers of pros and cons can vary -->
+
+### [option 3]
+
+[example | description | pointer to more information | …] <!-- optional -->
+
+* Good, because [argument a]
+* Good, because [argument b]
+* Bad, because [argument c]
+* … <!-- numbers of pros and cons can vary -->
+
+## Decision Outcome
+
+Chosen option: "[option 1]", because [justification. e.g., the only option which meets k.o. criterion decision driver | which resolves force | … | comes out best (see below)].
+
+### Positive Consequences <!-- optional -->
+
+* [e.g., improvement of quality attribute satisfaction, follow-up decisions required, …]
+* …
+
+### Negative Consequences <!-- optional -->
+
+* [e.g., compromising quality attribute, follow-up decisions required, …]
+* …
+
+## Links <!-- optional -->
+
+* [Link type] [Link to ADR] <!-- example: Refined by [ADR-0005](0005-example.md) -->
+* … <!-- numbers of links can vary -->
