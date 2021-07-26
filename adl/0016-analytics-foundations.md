@@ -1,11 +1,11 @@
 # Analytics Foundations
 
-* Status: proposed
-* Deciders:
-  * Daniel De Lucca
-  * Victor Perin
-  * Marcelo Travi
-* Date: 2021-07-26
+- Status: accepted
+- Deciders:
+  - Daniel De Lucca
+  - Victor Perin
+  - Marcelo Travi
+- Date: 2021-07-26
 
 Technical Story: [BU-141](https://getbud.atlassian.net/browse/BU-141)
 
@@ -90,7 +90,18 @@ While searching for viable options, I found a tool called [Airbyte](https://airb
 
 After evaluating all options, we've decided to proceed with Airbyte. It meets almost every specification that we have. It is extremelly easy to implement and follows all the best standards. It isn't an in-house solution, but in the current scenario we're on that would not be a big deal with it. Also, we could learn from it and maybe create a new tool in the future, designed to met our needs.
 
-## Open questions
+### Positivo Consequences
 
-- Is it a good practice to query data directly from our data warehouse? Since one of the business requirements for this project is to display an evolution graph of a given key-result progress, should we allow our platform to query data from our data warehouse?
-- If we decide to integrate our platform with the data warehouse directly, should we implement an authentication layer in our analytics application? Or should we allow only our back-end application to interact with it?
+With this infrastructure, we're going to achieve a robust ELT infrastructure, with little effort. We can easily create an analytics application that is going to serve all our business requirements with minimal effort. Also, Airbyte uses DBT under the hood, that being said, even if we need to change our ELT structure, we would still be able to migrate our DBT project.
+
+### Negative Consequences
+
+There are two main negative consequences of this decision:
+
+#### 1. Not being able to query real time data
+
+As pointed by Marcelo Travi, with Airbyte we would not be able to query real-time data. In most use-cases that would not be an issue, but considering that our first requirement is serving an evolution graph of a given key-result percentual proggress, that should be an issue. To fix that, we suggest using only D-1 data from our analytics, and using the transactional data to enrich it.
+
+#### 2. Large queries could affect our applications
+
+As pointed by Victor Perin, since this is not a common implementation, we should be aware that complex analytics queries could impact our applications, since we're integrating them directly. There are plenty of ways to fix that, the easiest one would be creating a read-replica of our data warehouse, and using that to query the analytics. By doing so, we would separate both analytics and BI, minizing this issue.
